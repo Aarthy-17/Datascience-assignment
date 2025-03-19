@@ -36,8 +36,11 @@ plot_tree(clf, feature_names=iris.feature_names, class_names=iris.target_names, 
 plt.title("Decision Tree Based on ID3 Algorithm")
 plt.show()
 
+
+
 # Export and print the decision tree rules
 tree_rules = export_text(clf, feature_names=iris.feature_names)
 print("Decision Tree Rules:\n", tree_rules)
+#**Run it in any jupyter notebook**
 
 
